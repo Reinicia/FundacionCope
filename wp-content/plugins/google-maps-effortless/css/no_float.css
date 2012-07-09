@@ -1,0 +1,12 @@
+/**
+ ** file: no_float.css
+ ** label: Inline
+ ** description: No float, keep the map inline.
+ **
+ **/
+
+ div.no_float {
+     float: left;
+     margin: 12px;
+     border: solid 1px black;
+ }

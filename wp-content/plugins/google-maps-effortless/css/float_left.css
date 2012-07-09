@@ -1,0 +1,12 @@
+/**
+ ** file: float_left.css
+ ** label: Float Left
+ ** description: Float the map left.
+ **
+ **/
+
+ div.float_left {
+     float: left;
+     margin: 12px;
+     border: solid 1px black;     
+ }

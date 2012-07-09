@@ -1,0 +1,151 @@
+/**
+ ** admin.css
+ **
+ **/
+
+ div#icon-Effortless_Google_Maps.icon32 {
+    background: url("../images/icons32.png") no-repeat scroll transparent;    
+ }
+ 
+ /*----------------------------------
+ * A div that looks like a button. 
+ */
+.like-a-button {
+	background: #FFF; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#DDD)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #FFF,  #DDD); /* for firefox 3.6+ */  
+  
+  border: 1px solid #BBBBBB;
+  border-radius: 3px 3px 3px 3px;
+  margin: 6px;
+  padding: 3px;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+  color: #5F5E5E;
+  display: block;
+  
+  /* Corners */
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+   -khtml-border-radius: 6px;
+   
+   /* Shadow */
+   -moz-box-shadow: 0px 1px 3px #AAA;
+   -webkit-box-shadow: 0px 1px 3px #AAA;
+   box-shadow: 0px 1px 3px #AAA;   
+}
+.like-a-button:hover {
+	background: #DDD; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DDDDDD', endColorstr='#FFFFFF'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(#FFF)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #DDD,  #FFF); /* for firefox 3.6+ */  
+}
+.like-a-button A {
+    text-decoration:none;
+}
+
+/*----------------------------------
+ * Option Packs
+ */
+ div.optionpack_box {
+    float: left;     
+    background-color: #F4F4AA;
+    border: 1px solid #888844;
+    padding: 12px;
+    text-align: center;
+    width: 340px;     
+    margin: 6px;
+    
+  /* Corners */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+   -khtml-border-radius: 10px;    
+    border-radius: 10px 10px 10px 10px;
+ }
+ div.optionpack_box iframe {
+     margin: 0px auto;
+     width: 160px;
+ }
+ div.optionpack_name {
+     font-size: 17px;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 12px;
+ }
+ div.optionpack_info {
+     text-align: center;
+ }
+
+
+/*----------------------------------
+ * Icons 
+ */
+ 
+.helpicon {
+    padding-left: 5px;
+    position: relative;
+    vertical-align: top;
+}
+
+div.icon32 {
+    background: url("../images/icons32.png") no-repeat scroll transparent;    
+}
+
+
+
+/*----------------------------------
+ * Input Labels
+ */
+table.form-table tbody tr th.input_label {
+    vertical-align: top;
+    padding-top: 14px;
+}
+
+
+/*----------------------------------
+ * CSL Theme System 
+ */
+
+div.csl_themes-input {
+    float: left;
+}
+
+/* More Info Box */
+div.csl_themes-moreicon {
+    background: url("../images/General_icons16.png") 
+        no-repeat scroll 
+        -17px 0px 
+        transparent; 
+    height:20px;
+    width: 20px;
+    float: left;
+    cursor: pointer;  
+    margin-top: 2px;
+}
+div.csl_themes-moretext {
+    display: none;
+    clear: both;    
+}
+
+/* Required Option Box */
+div.csl_themes-reqbox {
+    clear: left;
+}
+div.csl_themes-reqicon {
+    background: url("../images/General_icons16.png") 
+        no-repeat scroll 
+        0px 0px 
+        transparent; 
+    height:16px;
+    width: 16px;
+    float: left;
+}
+div.csl_themes-reqtext {
+    float:left;
+    color: #880000;
+}
+

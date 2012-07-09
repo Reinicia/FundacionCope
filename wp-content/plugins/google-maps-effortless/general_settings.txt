@@ -1,0 +1,1 @@
+<p>The settings are the defaults for your maps as well as general settings like the Google API Key.  Click the help icon next to each setting to learn more.</p>

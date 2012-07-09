@@ -1,0 +1,106 @@
+# Copyright (C) 2012 Cyber Sprocket Labs
+# This file is distributed under the same license as the Effortless Google Maps package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Effortless Google Maps 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/google-maps-effortless\n"
+"POT-Creation-Date: 2012-05-01 21:33:25+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Lobby Jones <lobbyjones@cybersprocket.com>\n"
+"Language-Team: Worldly Sprocket <lobbyjones@cybersprocket.com>\n"
+
+#: WPCSL-generic/classes/CSL-notifications_class.php:43
+msgid "<p><strong><a href=\"%s\">%s</a> needs attention: </strong>"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:573
+msgid "DEBUG: No driver found."
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:585
+#: WPCSL-generic/classes/CSL-plugin.php:586
+msgid "Support"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:589
+msgid "Purchase"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:590
+msgid "Buy Now"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:593
+msgid "Settings"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:670
+msgid "DEBUG: could not locate driver:"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:722
+#: WPCSL-generic/classes/CSL-themes_class.php:117
+msgid "Display Settings"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:766
+msgid ""
+"Your PHP settings have disabled exec(), your locale list cannot be "
+"determined."
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:784
+msgid "This is based on your current locale, which is set to "
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:852
+msgid "DEBUG: Shortcode called with attributes:"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:857
+msgid "DEBUG: Shortcode called with no attributes."
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:906
+msgid "DEBUG: Not OK To Show"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-plugin.php:974
+msgid "No products found"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-settings_class.php:23
+msgid "Save Changes"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-settings_class.php:423
+msgid "The following optional add-ons are available"
+msgstr ""
+
+#: WPCSL-generic/classes/CSL-themes_class.php:118
+msgid "Select A Theme"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Effortless Google Maps"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.cybersprocket.com/products/effortless-google-maps/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Cyber Sprocket Labs"
+"Put Google Maps on any page or post with a simple shortcode or widget.   100% free premium plugin."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.cybersprocket.com"
+msgstr ""

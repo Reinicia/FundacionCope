@@ -1,0 +1,72 @@
+<div class="optionpack_box" style="height:195px;">
+    <h1>Support Development</h1>
+    <p style="padding-left: 12px;">
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5CFGV6A9NFRLL">
+    <img alt="" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">
+    </a>
+    </p>
+    <h2 style="padding:0px; margin:0px;">Rate This Plugin!</h2>
+    <p>Don't forget <a href="http://wordpress.org/extend/plugins/google-maps-effortless/">rate us</a>!
+    Give us a chance to <a href="http://www.cybersprocket.com/contact-us/">address your concerns</a> if we didn't earn 5 stars.
+    </p>    
+</div>
+
+<div class="optionpack_box" style="height:195px;">
+    <h1>Feature Requests</h1>
+    <p style="padding-left: 12px;">
+    We do accept feature requests for all of our plugins, free ones included. The most requested features will make it into the next version.
+    </p>
+    <p style="padding-left: 12px;">
+    <strong>If you need a special feature NOW, <a href="http://www.cybersprocket.com/contact-us/">contact us</a>!</strong>
+    We offer expedited feature development.<br/>
+    Most features can be implemented in less than a week for $200!
+    </p>
+</div>
+
+<div style="clear:both;">
+    <h1>Putting Maps On Pages &amp; Posts</h1>
+    
+    <h2>The Basic Shortcode</h2>
+    <p style="padding-left: 12px;">Go to your page or past where you want a map and enter the [effortless-gm] shortcode.</p>  
+    <p style="padding-left: 12px;">You'll probably not want to show the Cyber Sprocket headquarters address, so add your own like this:<br/>
+    <pre>
+    [effortless-gm address="1180 Seven Seas Drive, Lake Buena Vista, FL 32830"]
+    </pre>
+    </p>
+    
+    <h2>Setting The Map Size</h2>
+    <p style="padding-left: 12px;">Use the size option in the shortcode.  The setting is in "&lt;width&gt;x&lt;height&gt;" format.
+    The width can be in either pixel format:<br/>
+    <pre>
+    [effortless-gm address="1180 Seven Seas Drive, Lake Buena Vista, FL 32830" size="200x200"]
+    </pre>
+    </p>
+    <p style="padding-left: 12px;">or percentage format:<br/>
+    <pre>
+    [effortless-gm address="1180 Seven Seas Drive, Lake Buena Vista, FL 32830" size="80%x80%"]
+    </pre>    
+    </p>
+    <p style="padding-left: 12px;">or a combination of both<br/>
+    <pre>
+    [effortless-gm address="1180 Seven Seas Drive, Lake Buena Vista, FL 32830" size="80%x400"]
+    </pre>        
+    </p>    
+    
+    <h2>Other Options</h2>
+    <p style="padding-left: 12px;">We dont' want to clutter the settings page with a list of ALL the options, so here is the punch list.  
+    Visit <a href="http://redmine.cybersprocket.com/projects/effortless-gm/wiki" target="cybersprocket">the Effortless Google Maps wiki</a> for more details.
+    <ul style="padding-left: 24px;">
+        <li><strong>address</strong> - where to center the map and drop the marker</li>
+        <li><strong>size</strong> - the width and height of the map</li>
+        <li><strong>theme</strong> - set the theme for this map only (default: selection from settings page)</li>
+        <li><strong>zoom</strong> - how close to zoom in (default: 12 which is "street" level)</li>
+        <li><strong>view</strong> - set the view mode ("satellite", "roadmap", "hybrid", and "terrain") for that map</li>
+        <li><strong>name</strong> - set the name for when the user clicks on your location</li>
+    </ul>
+    </p>
+    
+    <h2>Online Documentation</h2>    
+    <p style="padding-left: 12px;">
+    For more information, visit <a href="http://redmine.cybersprocket.com/projects/effortless-gm/wiki" target="cybersprocket">the Effortless Google Maps wiki</a>.
+    </p>
+</div>

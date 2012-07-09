@@ -1,0 +1,12 @@
+/**
+ ** file: float_right.css
+ ** label: Float Right
+ ** description: Float the map right.
+ **
+ **/
+
+ div.float_right {
+     float: right;
+     margin: 12px;
+     border: solid 1px black;
+ }
