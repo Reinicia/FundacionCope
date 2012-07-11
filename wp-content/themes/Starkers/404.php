@@ -8,6 +8,10 @@
  */
 
 get_header(); ?>
-				<h1><?php _e( 'Not Found', 'twentyten' ); ?></h1>
-				<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help.', 'twentyten' ); ?></p>
+<div id="contenido">
+	<div id="page">
+		<img class="micro" alt="" title="" src="/images/404micro.png"/>
+		<p class="parrafo404"><span class="not-found">404. PAGINA NO ENCONTRADA.</span><a href="/" title="Haz click aquí para volver a la home"/>Haz click aquí para volver a la home</a></p>
+    </div>
+</div>
 <?php get_footer(); ?>

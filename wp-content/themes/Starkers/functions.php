@@ -514,6 +514,14 @@ if(!function_exists('register_my_scripts')):
             array('jquery'),
             '3.0' );
         wp_enqueue_script('jquery.bxSlider');
+		wp_register_script('jquery-ui',
+        get_template_directory_uri() . '/js/jquery-ui.js',
+            array('jquery'));
+        wp_enqueue_script('jquery-ui');
+		wp_register_script('jMenu.jquery',
+        get_template_directory_uri() . '/js/jMenu.jquery.js',
+            array('jquery'));
+        wp_enqueue_script('jMenu.jquery');
     }
 endif;
 add_action('wp_enqueue_scripts', 'register_my_scripts');

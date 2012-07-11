@@ -22,7 +22,7 @@ a{
 }
 #cabecera { background:#FFFFFF;}
 #cabecera #sup{height: 40px;background: #E6E6E6 url(/images/separadormenu.png) repeat-x bottom left;}
-#cabecera #sup ul{position:absolute;left:240px;font-size: 10px;text-transform: uppercase;}
+#cabecera #sup ul{margin:0 auto; width:960px;font-size: 10px;text-transform: uppercase;}
 #cabecera #sup ul li {
     display: inline;
     line-height: 30px;
@@ -41,8 +41,9 @@ a{
 #cabecera #central #buscador #searchform {position:relative;top:-25px}
 #cabecera #central #buscador #search {width:300px;height:36px;border:1px solid #D9DAC0;background-color:#F8F8F8;color:#8c8c8c;font-family: 'Oswald',sans-serif;font-size:14px;} 
 .lupa{position:relative;left:-4px;top:13px}
+/************* MENU ************************/
 #cabecera #menu {background:#3B2fAB url(/images/menu.png) repeat-x;height:60px;margin-top:10px;}
-#cabecera #menu ul{margin:0 auto;width: 960px;}
+/*#cabecera #menu ul{margin:0 auto;width: 960px;}
 #cabecera #menu ul li {
 	font-family: 'Oswald',sans-serif;
     font-size: 14px;
@@ -62,6 +63,9 @@ padding-left:5px;
 }
 #cabecera #menu ul li a {color:#FFFFFF;font-size:14px;}
 
+*/
+
+/**************** FIN MENU *********************/
 #contenido {min-height:300px;background-color:#E6E6E6;}
 #contenido #contenido_superior {width:980px;margin:0 auto;}
 #contenido #contenido_superior .lof-container{float:left;}
@@ -336,14 +340,27 @@ padding-left:5px;
 .limpia{clear:both;}
 .informate{font-size:18px;color:#4F4F4F;font-family: 'Oswald',sans-serif;}
 .telf{font-size:26px;color:#303764;font-family: 'Oswald',sans-serif;}
-
+.not-found{ 
+	font-family: 'Oswald',sans-serif;
+	font-size:28px;
+	color:#303765;
+	}
+.micro{float:left;margin:30px;}
+.parrafo404{float:left;height:248px;line-height:248px;}
+.post-search{margin:20px 30px;}
+h2#post-search-title{ font-family: 'Oswald',sans-serif;
+	font-size:16px;
+	color:#303765;
+	}
+a.search{ text-decoration:underline;}
+a.search:link, a.search:active{color:#303765;}
 /* Maquetacion para las paginas */
-#contenido #page{margin:0px auto;width:960px;}
+#contenido #page {margin:0px auto;width:960px;}
 #contenido #page .title-page {
 	margin-top:34px;
-	text-indent: 60px;
+	text-indent: 30px;
 	font-family: 'Oswald',sans-serif;
-	font-size:20px;
+	font-size:18px;
 	color:#FFFFFF;
 	line-height:60px;
 	background:#303765 url('/images/fondo-azul.png') repeat-y;
@@ -351,7 +368,9 @@ padding-left:5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	margin-bottom:20px;
+	text-transform: uppercase;
 }
+
 
 
 #nav {

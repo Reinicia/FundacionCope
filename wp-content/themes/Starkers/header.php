@@ -68,13 +68,67 @@
     	</div>
     	<br class="clear"/>
     	<div id="menu">
-    		
+	    	<ul id="jMenu">
+	    		<li class="first" >
+					<a title="" href="/"><img src="/images/iconohome.png" alt="Home" title="Home" width="20" height="17" /></a>
+				</li>
+             	<li><a class="fNiv">CONOCENOS</a>
+		    		<ul>
+						<li class="arrow"></li>
+						<li><a>Quienes somos</a></li>
+						<li><a>Claustro</a></li>
+						<li><a>Consejo Académico</a></li>
+					</ul>
+		    	</li>
+		    	<li><a class="fNiv">MASTER RADIO</a></li>
+		    	<li><a class="fNiv">PROGRAMAS</a>
+		    		<ul>
+						<li class="arrow"></li>
+						<li><a>Masters</a></li>
+						<li><a>Cursos Superiores</a></li>
+						<li><a>PDP's</a></li>
+					</ul>
+		    	</li>
+		    	<li><a class="fNiv">IN COMPANY</a></li>
+		    	<li><a class="fNiv">PROFESORADO</a>
+		    		<ul>
+						<li class="arrow"></li>
+						<li><a>Masters</a></li>
+						<li><a>Cursos Superiores</a></li>
+						<li><a>PDP's</a></li>
+					</ul>
+		    	</li>
+		    	<li><a class="fNiv">ALUMNOS</a>
+		    		<ul>
+						<li class="arrow"></li>
+						<li><a>Testimonios</a></li>
+						<li><a>Antiguos alumnos</a></li>
+						<li><a>Bolsa de trabajo</a></li>
+					</ul>
+		    	</li>
+		    	<li><a class="fNiv">NOTICIAS</a></li>
+		    	<li><a class="fNiv">CONTACTA</a></li>
+			</ul>
+		</div>
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    jQuery("#jMenu").jMenu();
+  })
+</script>
+    	<!--
+    	<div id="menu">
     				<ul>
 						<li class="first" >
 							<a title="" href="/"><img src="/images/iconohome.png" alt="Home" title="Home" width="20" height="17" /></a>
 						</li>
 						<li class="first">
 							<a href="">CONOCENOS</a><span></span>
+							<ul>
+								 <li><a href="#">Jubilaci&oacute;n</a></li>
+								 <li><a href="#">Pensi&oacute;n</a></li>
+								 <li><a href="#">Jubilaci&oacute;n por invalidez</a></li>
+								 <li><a href="#">Jubilaci&oacute;n por edad avanzada</a></li>
+							</ul>
 						</li>
 						<li>
 							<a href="">MASTER RADIO</a><span></span>
@@ -103,4 +157,5 @@
 					</ul>
     		
     	</div>
+    	-->
     </div>

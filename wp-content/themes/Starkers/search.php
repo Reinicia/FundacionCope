@@ -8,21 +8,21 @@
  */
 
 get_header(); ?>
-
+<div id="contenido">
+	<div id="page">
 <?php if ( have_posts() ) : ?>
-				<h1><?php printf( __( 'Search Results for: %s', 'twentyten' ), '' . get_search_query() . '' ); ?></h1>
-				<?php
-				/* Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called loop-search.php and that will be used instead.
-				 */
-				 get_template_part( 'loop', 'search' );
-				?>
+	            <h1 class="title-page"><?php printf( __( 'Search Results for: %s', 'twentyten' ), '' . get_search_query() . '' ); ?></h1>
+				<?php while (have_posts()) : the_post(); ?>
+                      <div class="post-search" id="post-<?php the_ID(); ?>">
+	                      <h2 id="post-search-title"><a class="search" href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+		                  <div class="entrytext">
+							  <?php the_excerpt() ?>
+		                  </div>
+                      </div>	
+                <?php endwhile; ?>
 <?php else : ?>
-					<h2><?php _e( 'Nothing Found', 'twentyten' ); ?></h2>
-					<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'twentyten' ); ?></p>
-					<?php get_search_form(); ?>
+	            <h1 class="title-page"><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'twentyten' ); ?></h1>
 <?php endif; ?>
-
-<?php get_sidebar(); ?>
+	</div>
+</div>
 <?php get_footer(); ?>
