@@ -525,25 +525,13 @@ if(!function_exists('register_my_scripts')):
     }
 endif;
 add_action('wp_enqueue_scripts', 'register_my_scripts');
-function load_cat_parent_template()
-{
-    global $wp_query;
-
-    if (!$wp_query->is_category)
-        return true; // saves a bit of nesting
-
-    // get current category object
-    $cat = $wp_query->get_queried_object();
-
-    // trace back the parent hierarchy and locate a template
-    while ($cat && !is_wp_error($cat)) {
-        $template = TEMPLATEPATH . "/category-{$cat->slug}.php";
-        if (file_exists($template)) {
-            load_template($template);
-            exit;
-        }
-
-        $cat = $cat->parent ? get_category($cat->parent) : false;
+function my_post_queries( $query ) {
+  // not an admin page and it is the main query
+  if (!is_admin() && $query->is_main_query()){
+    if(is_category() || is_search()){
+      $query->set('posts_per_page', 1);
     }
+  }
 }
-add_action('template_redirect', 'load_cat_parent_template');
+add_action( 'pre_get_posts', 'my_post_queries' );
+

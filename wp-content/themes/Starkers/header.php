@@ -45,7 +45,7 @@
     	<!--Menu superior + redes sociales -->
     	<div id="sup">
 	    	<ul>
-	            <li><a href="">DONDE ESTAMOS</a><span> | </span></li>
+	            <li><a title="Donde estamos" href="/donde-estamos">DONDE ESTAMOS</a><span> | </span></li>
 	            <li><a href="">CONTACTO</a><span> | </span></li>
 	            <li><a href="">SIGUENOS</a></li>
 	            <li><a title="" href="/"><img src="/images/facebook.png" alt="" width="20" height="20" /></a></li>
@@ -106,7 +106,7 @@
 						<li><a>Bolsa de trabajo</a></li>
 					</ul>
 		    	</li>
-		    	<li><a class="fNiv">NOTICIAS</a></li>
+		    	<li><a href="/noticias" title="Noticias" class="fNiv">NOTICIAS</a></li>
 		    	<li><a class="fNiv">CONTACTA</a></li>
 			</ul>
 		</div>

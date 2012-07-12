@@ -41,31 +41,7 @@ a{
 #cabecera #central #buscador #searchform {position:relative;top:-25px}
 #cabecera #central #buscador #search {width:300px;height:36px;border:1px solid #D9DAC0;background-color:#F8F8F8;color:#8c8c8c;font-family: 'Oswald',sans-serif;font-size:14px;} 
 .lupa{position:relative;left:-4px;top:13px}
-/************* MENU ************************/
 #cabecera #menu {background:#3B2fAB url(/images/menu.png) repeat-x;height:60px;margin-top:10px;}
-/*#cabecera #menu ul{margin:0 auto;width: 960px;}
-#cabecera #menu ul li {
-	font-family: 'Oswald',sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    display: inline;
-    line-height: 60px;
-    background: url(/images/separador.png) no-repeat left;
-    display: inline;
-    float: left;
-    height: 60px;
-    margin: 0;
-    padding:0 16px
-}
-#cabecera #menu ul li.first{
-background-image: none;
-padding-left:5px;
-}
-#cabecera #menu ul li a {color:#FFFFFF;font-size:14px;}
-
-*/
-
-/**************** FIN MENU *********************/
 #contenido {min-height:300px;background-color:#E6E6E6;}
 #contenido #contenido_superior {width:980px;margin:0 auto;}
 #contenido #contenido_superior .lof-container{float:left;}
@@ -76,7 +52,7 @@ padding-left:5px;
 #contenido #contenido_superior #contact_form p {font-family: 'Oswald',sans-serif;color:#8c8c8c;margin-top:3px;}
 #contenido #contenido_superior #contact_form input[type=text]{width:232px;height:28px;border:1px solid #D9DAC0;background-color:#FFF; }
 #contenido #contenido_superior #contact_form .wpcf7-submit{float:right;margin-bottom:4px;margin-top:11px;margin-left:15px;margin-right:15px;}
-#contenido #contenido_superior #contact_form .wpcf7-response-output {color:#00800;clear:both;color:#8c8c8c;font-family: 'Oswald',sans-serif;font-size:12px;margin:0;}
+#contenido #contenido_superior #contact_form .wpcf7-response-output {clear:both;color:#8c8c8c;font-family: 'Oswald',sans-serif;font-size:12px;margin:0;}
 #contenido #contenido_superior #contenido_central{
 	width:980px;
 }
@@ -370,35 +346,105 @@ a.search:link, a.search:active{color:#303765;}
 	margin-bottom:20px;
 	text-transform: uppercase;
 }
+#contenido #page #izq{
+	margin-top:25px;
+    margin-bottom:25px;
+	width:700px;
+	float:left;
+}
+#contenido #page #izq #navegacion{width:170px;height:300px;float:left;border-right:1px solid #d8d8d8;border-top:1px solid #d8d8d8;}
+#contenido #page #izq #izq-central{padding-left:30px;float:left;width:490px;}
+#contenido #page #izq p{
+	margin-top:10px;font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;color:#555555;
+}
+.contenido-post{margin-top:25px;font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;color:#555555;}
+#contenido #page #dcha{
+	
+	margin:25px 0;
+	width:240px;
+	float:right;
+}
 
-
-
+#dcha .widget-title{
+	margin-bottom:5px;
+	font-family: 'Oswald',sans-serif;
+	font-size:20px;
+	color:#303764;
+}
+#dcha .widget-container{
+	margin-bottom:25px;
+}
+#dcha .widget-container a{
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;color:#555555;
+}
+#dcha .widget-container a:link{
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;color:#555555;
+}
+#dcha .widget-container a:hover{
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;color:#555555;
+}
+#dcha .widget-container a:visited{
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;color:#555555;
+}
+#dcha .widget-container a:active{
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;color:#555555;
+}
+#titulo-post {
+	font-family: 'Oswald',sans-serif;
+	font-size:25px;
+	color:#000;
+	}
 #nav {
     float: left;
     margin-top:0px;
-	border-right:1px solid #d8d8d8;
-	border-top:1px solid #d8d8d8;
 	width:207px;
-	min-height:300px;
+	
 }
 #nav li a {
     display: block;
-    padding: 10px 15px;
+    height:28px;
     border-bottom: 1px solid #d8d8d8;
     text-decoration: none;
+    color:#303764;
+    width:170px;
+    float:left;
 }
-#nav li a:hover, #nav li a.active {
+#nav li{ 
+	text-indent:15px;
+    line-height:28px
+}
+#nav li a:hover, #nav li a.active{
     background: #303765;
     color: #fff;
 }
 
-#nav li ul {
-    display: none; 
+#nav li .flecha{
+    /*background: #303765;*/
+    color: #fff;
+    background:url("/images/triangulo.png") no-repeat left;
+    height:28px;
+    width:14px;
+    margin-left:-1px;
+    float:left;
+}
+#nav li div{
+    height:28px;
+    width:14px;
+    margin-left:-1px;
+    float:left;
 }
 #nav li ul li a {
     padding: 10px 25px;
     background: #303765;
 }
+
 
 #footer {background-color:#FFFFFF;margin-top:25px;min-height:137px;}
 #footer #container_footer {margin:0 auto;width:980px;padding-top:20px;}
