@@ -47,9 +47,9 @@
 	    	<ul>
 	            <li><a title="Donde estamos" href="donde-estamos-nuntii-escuela-cope">DONDE ESTAMOS</a><span> | </span></li>
 	            <li><a href="">CONTACTO</a><span> | </span></li>
-	            <li><a href="">SIGUENOS</a></li>
-	            <li><a title="" href="/"><img src="/images/facebook.png" alt="" width="20" height="20" /></a></li>
-	            <li><a title="" href="/"><img src="/images/twitter.png" alt="" width="20" height="20" /></a></li>
+	            <li></li>
+	            <li><a title="Facebook Nuntii Escuela" href="http://facebook.com/NuntiiEscuelaDeComunicacionDeLaFundacionCope" target="_blank"><img src="/images/facebook.png" alt="" width="20" height="20" /></a></li>
+	            <li><a title="Twitter de Nuntii Escuela" href="http://twitter.com/nuntiiescuela" target="_blank"><img src="/images/twitter.png" alt="" width="20" height="20" /></a></li>
 	        </ul>
         </div>
         <!-- Logo y Buscador -->
