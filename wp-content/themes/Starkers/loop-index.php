@@ -4,7 +4,7 @@
 		<!-- Formulario de contacto -->
 		<div id="contact_form">
 			<H2 class="form-cabecera">¿Estás interesado?</H2>
-			<p class="form-texto"><span>Recibe</span> más información sobre nuestros programas.</p>
+			<p class="form-texto"><span>Recibe</span> más información sobre nuestros Masters, Cursos Superiores y PDP's.</p>
 			<?php echo do_shortcode('[contact-form-7 id="55" title="Formulario de contacto 1"]');?>
 		</div>
 		<!-- Ahora sacamos los posts de una categoria que seran mostrados aqui -->
