@@ -373,6 +373,10 @@ a.search:link, a.search:active{color:#303765;}
 	font-size:13.5px;
 	color:#0C2C77;
 }
+#contenido .textwidget{
+	margin-bottom:10px;
+}
+
 #dcha .widget-container{
 	margin-bottom:25px;
 }
