@@ -75,7 +75,7 @@
              	<li><a class="fNiv">CONOCENOS</a>
 		    		<ul>
 						<li class="arrow"></li>
-						<li><a>Quienes somos</a></li>
+						<li><a href="conocenos" title="Conocenos Nuntii Escuela">Quienes somos</a></li>
 						<li><a>Claustro</a></li>
 						<li><a>Consejo Académico</a></li>
 					</ul>
@@ -121,47 +121,4 @@
     jQuery("#jMenu").jMenu();
   })
 </script>
-    	<!--
-    	<div id="menu">
-    				<ul>
-						<li class="first" >
-							<a title="" href="/"><img src="/images/iconohome.png" alt="Home" title="Home" width="20" height="17" /></a>
-						</li>
-						<li class="first">
-							<a href="">CONOCENOS</a><span></span>
-							<ul>
-								 <li><a href="#">Jubilaci&oacute;n</a></li>
-								 <li><a href="#">Pensi&oacute;n</a></li>
-								 <li><a href="#">Jubilaci&oacute;n por invalidez</a></li>
-								 <li><a href="#">Jubilaci&oacute;n por edad avanzada</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="">MASTER RADIO</a><span></span>
-						</li>
-						<li>
-							<a href="">PROGRAMAS</a><span></span>
-						</li>
-						<li>
-							<a href="">PROFESORADO</a><span></span>
-						</li>
-						<li>
-							<a href="">ADMISION</a><span></span>
-						</li>
-						<li>
-							<a href="">ALUMNOS</a><span></span>
-						</li>
-						<li>
-							<a href="">NOTICIAS</a><span></span>
-						</li>
-						<li>
-							<a href="">CONTACTA</a><span></span>
-						</li>
-						<li>
-							<a href="">FUNDACION COPE</a>
-						</li>
-					</ul>
-    		
-    	</div>
-    	-->
     </div>
