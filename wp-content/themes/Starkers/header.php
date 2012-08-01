@@ -45,7 +45,7 @@
     	<!--Menu superior + redes sociales -->
     	<div id="sup">
 	    	<ul>
-	            <li><a title="Donde estamos" href="donde-estamos-nuntii-escuela-cope">DONDE ESTAMOS</a><span> | </span></li>
+	            <li><a title="Donde estamos" href="/donde-estamos-nuntii-escuela-cope">DONDE ESTAMOS</a><span> | </span></li>
 	            <li><a href="">CONTACTO</a><span> | </span></li>
 	            <li></li>
 	            <li><a title="Facebook Nuntii Escuela" href="http://facebook.com/NuntiiEscuelaDeComunicacionDeLaFundacionCope" target="_blank"><img src="/images/facebook.png" alt="" width="20" height="20" /></a></li>
@@ -55,7 +55,7 @@
         <!-- Logo y Buscador -->
     	<div id="central">
     		<div id="logo">
-    			<img src="/images/logocope.png" alt="" title=""/>
+    			<a href="/"><img src="/images/logocope.png" alt="" title=""/></a>
     		</div>
     		<div id="buscador">
     			<?php get_search_form(); ?>
@@ -75,16 +75,16 @@
              	<li><a class="fNiv">CONOCENOS</a>
 		    		<ul>
 						<li class="arrow"></li>
-						<li><a href="conocenos" title="Conocenos Nuntii Escuela">Quienes somos</a></li>
+						<li><a href="/conocenos" title="Conocenos Nuntii Escuela">Quienes somos</a></li>
 						<li><a>Claustro</a></li>
 						<li><a>Consejo Académico</a></li>
 					</ul>
 		    	</li>
-		    	<li><a href="master-de-radio-cope" title="Master de Radio Cope" class="fNiv">MASTER RADIO</a></li>
+		    	<li><a href="/master-de-radio-cope" title="Master de Radio Cope" class="fNiv">MASTER RADIO</a></li>
 		    	<li><a class="fNiv">PROGRAMAS</a>
 		    		<ul>
 						<li class="arrow"></li>
-						<li><a href="master-de-radio-cope" title="Master de Radio Cope">Masters</a></li>
+						<li><a href="/master-de-radio-cope" title="Master de Radio Cope">Masters</a></li>
 						<li><a>Cursos Superiores</a></li>
 						<li><a>PDP's</a></li>
 					</ul>
