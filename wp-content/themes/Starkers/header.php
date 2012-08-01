@@ -84,7 +84,7 @@
 		    	<li><a class="fNiv">PROGRAMAS</a>
 		    		<ul>
 						<li class="arrow"></li>
-						<li><a>Masters</a></li>
+						<li><a href="master-de-radio-cope" title="Master de Radio Cope">Masters</a></li>
 						<li><a>Cursos Superiores</a></li>
 						<li><a>PDP's</a></li>
 					</ul>

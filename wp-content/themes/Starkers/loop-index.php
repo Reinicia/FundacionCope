@@ -65,7 +65,7 @@
                     <div style="width:342px;height:100px;">			
 					    <img style="float:left;margin:15px;" alt="" src="<?php the_field('imagen_noticia'); ?>"/>
 					    <h1 style="font-size:12px;font-weight:bold;margin-top:15px;"><?php the_field('titulo_noticia'); ?></h1>
-					    <p style="font-size:12px;margin-top:8px;color:#5561B0;"><?php the_field('resumen_noticia'); ?><a href="<?php the_permalink();?>" title="Mas informacion">Leer mas</a></p>
+					    <p style="font-size:12px;margin-top:8px;color:#5561B0;"><?php the_field('resumen_noticia'); ?><a href="<?php the_permalink();?>" title="Mas informacion">Leer Más</a></p>
 			        </div>
 <?php
         endwhile;
