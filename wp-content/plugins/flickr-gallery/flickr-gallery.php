@@ -246,7 +246,7 @@ class DC_FlickrGallery {
 						$url = DC_FlickrGallery::get_photo_url($attr['user_id']);
 						$tabs = apply_filters('flickr_gallery_tabs', array(
 							//array('id'=>'photostream', 'name'=> __('Photostream', 'flickr-gallery')),
-							array('id'=>'photostream', 'Galería Nuntii'),
+							array('id'=>'photostream', 'name'=>'Galería Nuntii'),
 							array('id'=>'sets', 'name' => __('Photosets', 'flickr-gallery')),
 							array('id'=>'collections', 'name' => __('Collections', 'flickr-gallery')),
 							array('id'=>'interesting', 'name' => __('Interesting', 'flickr-gallery')),
