@@ -367,11 +367,11 @@ a.search:link, a.search:active{color:#303765;}
 	float:right;
 }
 
-#dcha .widget-title{
+#contenido .widget-title{
 	margin-bottom:5px;
 	font-family: 'Oswald',sans-serif;
-	font-size:20px;
-	color:#303764;
+	font-size:13.5px;
+	color:#0C2C77;
 }
 #dcha .widget-container{
 	margin-bottom:25px;
