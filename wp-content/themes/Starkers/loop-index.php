@@ -79,8 +79,8 @@
 				    </div>
 				    <div style="margin-top:20px;">
 				    	<h2 style="margin-left:15px;">CONOCE NUESTRA ESCUELA POR DENTRO</h2>
-				    	<img style="margin-left:15px;" alt="" title="" src="/images/imgescueladentro.jpg"/>
-				    	<img style="margin-left:15px;" alt="" title="" src="/images/imgescueladentro.jpg"/>
+				    	<a href="galeria-de-fotos-nuntii-escuela"><img style="margin-left:15px;" alt="Fotos Escuela Nuntii" title="Fotos Escuela Nuntii" src="/images/galeria_home_1.jpg"/></a>
+				    	<a href="galeria-de-fotos-nuntii-escuela"><img style="margin-left:15px;" alt="Fotos Escuela Nuntii" title="Fotos Escuela Nuntii" src="/images/galeria_home_2.jpg"/></a>
 				    </div>
             	</div>					
 			</div>
