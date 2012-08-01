@@ -57,7 +57,7 @@
 ?>				
                 </div>
 				<div id="contenido_central_blanco" style="padding-bottom:20px;">
-					<h2 style="padding:5px 15px 0px 15px;">NOTICIAS MASTER RADIO</h2>
+					<h2 style="padding:5px 15px 0px 15px;">NOTICIAS NUNTII ESCUELA</h2>
 <?php
 	    $first_query = new WP_Query('cat=5&showposts=4'); // exclude category
         while($first_query->have_posts()) : $first_query->the_post();	
@@ -65,7 +65,7 @@
                     <div style="width:342px;height:100px;">			
 					    <img style="float:left;margin:15px;" alt="" src="<?php the_field('imagen_noticia'); ?>"/>
 					    <h1 style="font-size:12px;font-weight:bold;margin-top:15px;"><?php the_field('titulo_noticia'); ?></h1>
-					    <p style="font-size:12px;margin-top:8px;color:#5561B0;"><?php the_field('resumen_noticia'); ?></p>
+					    <p style="font-size:12px;margin-top:8px;color:#5561B0;"><?php the_field('resumen_noticia'); ?><a href="<?php the_permalink();?>" title="Mas informacion">Leer mas</a></p>
 			        </div>
 <?php
         endwhile;
@@ -74,8 +74,7 @@
                     <div style="width:342px;height:185px;">
 						<img style="float:left;margin-top:20px;margin-right:15px;" src="/images/imgmicro.jpg" alt="" title=""/>
 						<h2 style="margin-top:20px;">NUESTRO ARCHIVO SONORO</h2>
-						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
-		                   No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos.
+						<p>En ese apartado mostraremos el archivo sonoro de los trabajos realizados por los alumnos del Máster Universitario en Radio impartido por Nuntii Escuela.
 		                </p>
 				    </div>
 				    <div style="margin-top:20px;">
