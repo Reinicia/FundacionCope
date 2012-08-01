@@ -45,7 +45,7 @@
     	<!--Menu superior + redes sociales -->
     	<div id="sup">
 	    	<ul>
-	            <li><a title="Donde estamos" href="/donde-estamos">DONDE ESTAMOS</a><span> | </span></li>
+	            <li><a title="Donde estamos" href="donde-estamos-nuntii-escuela-cope">DONDE ESTAMOS</a><span> | </span></li>
 	            <li><a href="">CONTACTO</a><span> | </span></li>
 	            <li><a href="">SIGUENOS</a></li>
 	            <li><a title="" href="/"><img src="/images/facebook.png" alt="" width="20" height="20" /></a></li>
@@ -80,7 +80,7 @@
 						<li><a>Consejo Académico</a></li>
 					</ul>
 		    	</li>
-		    	<li><a class="fNiv">MASTER RADIO</a></li>
+		    	<li><a href="master-de-radio-cope" title="Master de Radio Cope" class="fNiv">MASTER RADIO</a></li>
 		    	<li><a class="fNiv">PROGRAMAS</a>
 		    		<ul>
 						<li class="arrow"></li>
