@@ -62,7 +62,7 @@
     			<div id="informacion">
     				<img alt="Teléfono contacto" title="Telefono Contacto" src="/images/movil.png">
     				<span class="informate">LLAMANOS E INFORMATE:</span>
-    				<span class="telf">913219386</span>
+    				<span class="telf">918 283 930</span>
     			</div>
     		</div>
     	</div>
@@ -110,6 +110,12 @@
 		    	<li><a class="fNiv">CONTACTA</a></li>
 			</ul>
 		</div>
+	<!--	<div class="breadcrumbs">
+	    <?php if(function_exists('bcn_display') && !is_home())
+	    {
+	        bcn_display();
+	    }?>
+     </div>-->
 <script type="text/javascript">
   jQuery(document).ready(function(){
     jQuery("#jMenu").jMenu();
