@@ -85,7 +85,16 @@
 		    		<ul>
 						<li class="arrow"></li>
 						<li><a href="/master-de-radio-cope" title="Master de Radio Cope">Masters</a></li>
-						<li><a>Cursos Superiores</a></li>
+						<li><a>Cursos Superiores</a>
+							<ul>
+								<li>
+									<a href="/curso-superior-periodismo-deportivo-cope" title="Curso Superior de Periodismo Deportivo">Curso Superior de Periodismo Deportivo</a>
+								</li>
+								<li>
+									<a href="/curso-superior-radio-musical-fundacion-cope" title="Curso Superior de Radio Musical">Curso Superior de Radio Musical</a>
+								</li>
+							</ul>
+						</li>
 						<li><a>PDP's</a></li>
 					</ul>
 		    	</li>
