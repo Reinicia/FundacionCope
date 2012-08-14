@@ -208,7 +208,7 @@
 		$return = '<div class="trackable_sharing">';
 
 		$b4_text = get_option('_trackablesharebutton_sharethis_text');
-		if(strlen(trim($b4_text)) > 0) { $return .= '<div class="trackable_sharing_text"><b>'.$b4_text.'</b></div>'; }
+		if(strlen(trim($b4_text)) > 0) { $return .= '<div class="trackable_sharing_text limpia"><b>'.$b4_text.'</b></div>'; }
 
 		$buttons = explode(',',get_option('_trackablesharebuttons'));
 		list($button_dir,$button_url) = _trackableshare_setpaths( get_option('_trackablesharebutton_type'));
