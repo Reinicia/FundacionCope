@@ -19,7 +19,7 @@
 define('DB_NAME', 'wpfundacion');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER','wpuser');
+define('DB_USER', 'wpuser');
 
 /** Tu contraseña de MySQL */
 define('DB_PASSWORD', 'Fundac10n');
@@ -85,6 +85,9 @@ define('WP_DEBUG', false);
 /** WordPress absolute path to the Wordpress directory. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
+
+/* Enable WP Super Cache Plugin. */
+define('WP_CACHE', true);
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
