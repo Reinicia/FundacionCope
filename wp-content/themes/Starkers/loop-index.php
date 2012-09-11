@@ -28,8 +28,8 @@
         while($first_query->have_posts()) : $first_query->the_post();	
 ?>		
            <li class="item first">
-				<div class="border"><a href="<?the_permalink();?>" title="<?php the_field('titulo_carrousel');?>" class="product-image"><img alt="<?php the_field('titulo_carrousel');?>" src="<?php the_field('imagen_carrousel'); ?>"/></a>
-					<h2 class="product-name"><a href="<?the_permalink();?>" title="<?php the_field('titulo_carrousel');?>"><?php the_field('titulo_carrousel');?></a></h2>
+				<div class="border"><a href="<?php the_permalink();?>" title="<?php the_field('titulo_carrousel');?>" class="product-image"><img alt="<?php the_field('titulo_carrousel');?>" src="<?php the_field('imagen_carrousel'); ?>"/></a>
+					<h2 class="product-name"><a href="<?php the_permalink();?>" title="<?php the_field('titulo_carrousel');?>"><?php the_field('titulo_carrousel');?></a></h2>
 					<p><?php the_excerpt(); ?></p>
 				</div>
 		   </li>
