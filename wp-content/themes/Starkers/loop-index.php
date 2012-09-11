@@ -28,8 +28,8 @@
         while($first_query->have_posts()) : $first_query->the_post();	
 ?>		
            <li class="item first">
-				<div class="border"><a href="" title="" class="product-image"><img alt="" src="<?php the_field('imagen_carrousel'); ?>"/></a>
-					<h2 class="product-name"><a href="" title=""><?php the_field('titulo_carrousel');?></a></h2>
+				<div class="border"><a href="<?the_permalink();?>" title="<?php the_field('titulo_carrousel');?>" class="product-image"><img alt="<?php the_field('titulo_carrousel');?>" src="<?php the_field('imagen_carrousel'); ?>"/></a>
+					<h2 class="product-name"><a href="<?the_permalink();?>" title="<?php the_field('titulo_carrousel');?>"><?php the_field('titulo_carrousel');?></a></h2>
 					<p><?php the_excerpt(); ?></p>
 				</div>
 		   </li>
@@ -63,8 +63,8 @@
         while($first_query->have_posts()) : $first_query->the_post();	
 ?>				
                     <div style="width:342px;height:100px;">			
-					    <img style="float:left;margin:15px;" alt="" src="<?php the_field('imagen_noticia'); ?>"/>
-					    <h1 style="font-size:12px;font-weight:bold;margin-top:15px;"><?php the_field('titulo_noticia'); ?></h1>
+					    <a href="<?php the_permalink();?>"><img style="float:left;margin:15px;" alt="" src="<?php the_field('imagen_noticia'); ?>"/></a>
+					    <h1 style="font-size:12px;font-weight:bold;margin-top:15px;"><a href="<?php the_permalink();?>"><?php the_field('titulo_noticia'); ?></a></h1>
 					    <p style="font-size:12px;margin-top:8px;color:#5561B0;"><?php the_field('resumen_noticia'); ?><a href="<?php the_permalink();?>" title="Mas informacion">Leer Más</a></p>
 			        </div>
 <?php

@@ -64,24 +64,25 @@ get_header(); ?>
 <?php $post_objects = get_field('profesores');
       
       if( $post_objects ): ?>
-    <ul>
     <?php foreach( $post_objects as $post): // variable must be called $post (IMPORTANT) ?>
         <?php setup_postdata($post); ?>
-        <li>
-           <img alt="" src="<?php the_field('foto_profesor'); ?>"/>
-           <span><?php the_field('cargo'); ?></span>
-           <p><?php the_content(); ?></p>
+        <div class="profes">
+           <img class="img_profes" alt="<?php the_field('nombre_profesor'); ?>" src="<?php the_field('foto_profesor'); ?>"/>
+           <h6><?php the_field('nombre_profesor'); ?></h6>
+           <h6><?php the_field('cargo'); ?></h6>
            <a href="<?php the_field('url_linkedin'); ?>">
-      			<img src="http://www.linkedin.com/img/webpromo/btn_profile_bluetxt_80x15_es_ES.png?locale=" width="80" height="15" border="0" alt="Ver el perfil en LinkedIn">
+      			<img class="linkedin" src="http://www.linkedin.com/img/webpromo/btn_profile_bluetxt_80x15_es_ES.png?locale=" border="0" alt="Ver el perfil en LinkedIn">
            </a>
-        </li>
+           <a class="enlace" title="<?php the_title();?>" href="<?php the_permalink();?>">+ Ver Más</a>
+        </div>
     <?php endforeach; ?>
-    </ul>
     <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 <?php endif;?>
                     	</div>
                     	<div class="cont-central" id="cont5">
-                    	<?php echo do_shortcode('[contact-form-7 id="85" title="Formulario Contacto Completo"]');?>
+                    		<div id="contact_form">
+                    			<?php echo do_shortcode('[contact-form-7 id="85" title="Formulario Contacto Completo"]');?>
+                    	   </div>
                         </div>
                    </div>
 				</div>

@@ -366,12 +366,17 @@ a.search:link, a.search:active{color:#303765;}
       font-size: 18px;color:#303764}
 .enlace{
 	  font-family: Arial,Helvetica,sans-serif;
-      font-size: 16px;color:#303764;
+      font-size: 12px;color:#303764;
+      display:block;
+      float:right;
 }
 .texto{
 	  font-family: Arial,Helvetica,sans-serif;
       font-size: 16px;color:#4f4f4f;
 }
+.linkedin{width:80px;height:15px;margin-right:3px;}
+.profes{float:left;margin-left:5px;margin-bottom:5px;border:1px solid;}
+.img_profes{height:50px;width:50px;}
 #contenido #page #dcha{
 	
 	margin:25px 0;
