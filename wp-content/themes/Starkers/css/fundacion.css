@@ -51,14 +51,7 @@ a{
 #contenido #contenido_superior #contact_form .form-texto span{color:#313562;font-family: 'Oswald',sans-serif;font-size:18px;}
 #contact_form p {font-family: 'Oswald',sans-serif;color:#8c8c8c;margin-top:3px;font-size:12px !important;}
 #contact_form input[type=text]{width:232px;height:28px;border:1px solid #D9DAC0;background-color:#FFF; }
-#contact_form select {
-   font-family: 'Oswald',sans-serif;color:#8c8c8c;
-   background: transparent;
-   width: 268px;
-   padding: 5px;
-   font-size: 12px;
-   height: 30px;
-}
+#contact_form select {font-family: 'Oswald',sans-serif;color:#8c8c8c;background: transparent;width: 268px;padding: 5px;font-size: 12px;height: 30px;}
 #contact_form .wpcf7-submit{float:right;margin-bottom:4px;margin-top:11px;margin-left:15px;margin-right:15px;}
 #contact_form .wpcf7-response-output {clear:both;color:#8c8c8c;font-family: 'Oswald',sans-serif;font-size:12px;margin:0;}
 #contenido #contenido_superior #contenido_central{
