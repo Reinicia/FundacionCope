@@ -49,10 +49,18 @@ a{
 #contenido #contenido_superior #contact_form .form-cabecera{color:#313562;font-family: 'Oswald',sans-serif;font-size:26px;}
 #contenido #contenido_superior #contact_form .form-texto{color:#8c8c8c;font-family: 'Oswald',sans-serif;font-size:14px;}
 #contenido #contenido_superior #contact_form .form-texto span{color:#313562;font-family: 'Oswald',sans-serif;font-size:18px;}
-#contenido #contenido_superior #contact_form p {font-family: 'Oswald',sans-serif;color:#8c8c8c;margin-top:3px;}
-#contenido #contenido_superior #contact_form input[type=text]{width:232px;height:28px;border:1px solid #D9DAC0;background-color:#FFF; }
-#contenido #contenido_superior #contact_form .wpcf7-submit{float:right;margin-bottom:4px;margin-top:11px;margin-left:15px;margin-right:15px;}
-#contenido #contenido_superior #contact_form .wpcf7-response-output {clear:both;color:#8c8c8c;font-family: 'Oswald',sans-serif;font-size:12px;margin:0;}
+#contact_form p {font-family: 'Oswald',sans-serif;color:#8c8c8c;margin-top:3px;font-size:12px !important;}
+#contact_form input[type=text]{width:232px;height:28px;border:1px solid #D9DAC0;background-color:#FFF; }
+#contact_form select {
+   font-family: 'Oswald',sans-serif;color:#8c8c8c;
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 12px;
+   height: 30px;
+}
+#contact_form .wpcf7-submit{float:right;margin-bottom:4px;margin-top:11px;margin-left:15px;margin-right:15px;}
+#contact_form .wpcf7-response-output {clear:both;color:#8c8c8c;font-family: 'Oswald',sans-serif;font-size:12px;margin:0;}
 #contenido #contenido_superior #contenido_central{
 	width:980px;
 }
@@ -359,7 +367,18 @@ a.search:link, a.search:active{color:#303765;}
     font-size: 14px;color:#555555;
 }
 .contenido-post{margin-top:25px;font-family: Arial,Helvetica,sans-serif;
-    font-size: 14px;color:#555555;}
+      font-size: 14px;color:#555555;}
+.titulo {
+	  font-family: 'Oswald',sans-serif;
+      font-size: 18px;color:#303764}
+.enlace{
+	  font-family: Arial,Helvetica,sans-serif;
+      font-size: 16px;color:#303764;
+}
+.texto{
+	  font-family: Arial,Helvetica,sans-serif;
+      font-size: 16px;color:#4f4f4f;
+}
 #contenido #page #dcha{
 	
 	margin:25px 0;
@@ -459,3 +478,4 @@ a.search:link, a.search:active{color:#303765;}
 #footer #container_footer .xoxo a:link{color:#303764;}
 #footer #container_footer .xoxo a:hover{color:#303764;}
 #footer #footer_blue {height:55px;background-color:#303a77;clear:both;}
+
