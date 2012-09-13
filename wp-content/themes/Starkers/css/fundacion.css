@@ -375,7 +375,7 @@ a.search:link, a.search:active{color:#303765;}
       font-size: 16px;color:#4f4f4f;
 }
 .linkedin{width:80px;height:15px;margin-right:3px;}
-.profes{float:left;margin-left:5px;margin-bottom:5px;width:230px;}
+.profes{float:left;margin-left:5px;margin-bottom:5px;width:230px;min-height:200px;}
 .img_profes{height:70px;width:70px;}
 #contenido #page #dcha{
 	
