@@ -1,6 +1,6 @@
 <?php
 /**
- * Pagina para mostrar la categoria Profesores y Subcategorias (Master, PDP'S, Cursos Superiores)
+ * Pagina para mostrar la categoria noticias
  *
  * @package WordPress
  * @subpackage Starkers
