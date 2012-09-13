@@ -68,7 +68,7 @@ get_header(); ?>
         <?php setup_postdata($post); ?>
         <div class="profes">
            <img class="img_profes" alt="<?php the_field('nombre_profesor'); ?>" src="<?php the_field('foto_profesor'); ?>"/>
-           <h6><?php the_field('nombre_profesor'); ?></h6>
+           <h6><b><?php the_field('nombre_profesor'); ?></b></h6>
            <h6><?php the_field('cargo'); ?></h6>
            <a href="<?php the_field('url_linkedin'); ?>">
       			<img class="linkedin" src="http://www.linkedin.com/img/webpromo/btn_profile_bluetxt_80x15_es_ES.png?locale=" border="0" alt="Ver el perfil en LinkedIn">
