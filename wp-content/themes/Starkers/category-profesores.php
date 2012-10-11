@@ -24,9 +24,9 @@ get_header(); ?>
 		}
 
 // default loop here, if applicable, followed by wp_reset_query();
-        $cat_name =single_cat_title();
+        //$cat_name =single_cat_title();
         $args = array(
-	            'category_name'=>$cat_name,
+	            'category_name'=>'profesores',
                 'posts_per_page' => 6,
 	            'paged' => $my_page
         );
