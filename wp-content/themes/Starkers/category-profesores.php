@@ -7,7 +7,6 @@
  * @since Starkers 3.0
  */
 get_header(); ?>
-<?php echo "[".single_cat_title()."]";?>
 <div id="contenido">
 	<div id="page">
 		<div id="izq">
@@ -25,16 +24,16 @@ get_header(); ?>
 		}
 
 // default loop here, if applicable, followed by wp_reset_query();
-    
+        $cat_name =single_cat_title();
         $args = array(
-	            'category_name'=>single_cat_title(),
+	            'category_name'=>$cat_name,
                 'posts_per_page' => 6,
 	            'paged' => $my_page
         );
 	    $first_query = new WP_Query($args); // exclude category
         while($first_query->have_posts()) : $first_query->the_post();	
 ?>
-       <div class="profes">
+       <div class="profes" style="border:1px solid blue">
            <img class="img_profes" alt="<?php the_field('nombre_profesor'); ?>" src="<?php the_field('foto_profesor'); ?>"/>
            <h6><b><?php the_field('nombre_profesor'); ?></b></h6>
            <h6><?php the_field('cargo'); ?></h6>
