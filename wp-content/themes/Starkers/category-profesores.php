@@ -1,12 +1,13 @@
 <?php
 /**
- * Pagina para mostrar la categoria profesores
+ * Pagina para mostrar la categoria noticias
  *
  * @package WordPress
  * @subpackage Starkers
  * @since Starkers 3.0
  */
 get_header(); ?>
+<?php echo "[".single_cat_title()."]";?>
 <div id="contenido">
 	<div id="page">
 		<div id="izq">
@@ -26,17 +27,22 @@ get_header(); ?>
 // default loop here, if applicable, followed by wp_reset_query();
     
         $args = array(
-	            'category_name'=>'profesores',
-                'posts_per_page' => 1,
+	            'category_name'=>single_cat_title(),
+                'posts_per_page' => 6,
 	            'paged' => $my_page
         );
-	    var_dump($args);
 	    $first_query = new WP_Query($args); // exclude category
-	    var_dump($first_query);// exclude category
         while($first_query->have_posts()) : $first_query->the_post();	
-?>		
-        <h1 id="titulo-post"><?php the_title();?></h1>
-        <?php the_excerpt();?>			
+?>
+       <div class="profes">
+           <img class="img_profes" alt="<?php the_field('nombre_profesor'); ?>" src="<?php the_field('foto_profesor'); ?>"/>
+           <h6><b><?php the_field('nombre_profesor'); ?></b></h6>
+           <h6><?php the_field('cargo'); ?></h6>
+           <a href="<?php the_field('url_linkedin'); ?>">
+      			<img class="linkedin" src="http://www.linkedin.com/img/webpromo/btn_profile_bluetxt_80x15_es_ES.png?locale=" border="0" alt="Ver el perfil en LinkedIn">
+           </a>
+           <a class="enlace" title="<?php the_title();?>" href="<?php the_permalink();?>">+ Ver Más</a>
+        </div>
 <?php
         endwhile;
 		wp_pagenavi(array( 'query' => $first_query ));
@@ -49,4 +55,4 @@ get_header(); ?>
         </div>
     </div>
 </div>
-<?php get_footer(); ?>
+<?php get_footer(); ?>	
