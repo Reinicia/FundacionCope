@@ -466,7 +466,12 @@ a.search:link, a.search:active{color:#303765;}
     background: #303765;
 }
 
-
+#dcha .xoxo li > ul > li {
+	margin-top:5px;list-style:square;
+}
+#dcha .xoxo li a {
+	position: relative; left: -5px; 
+}
 #footer {background-color:#FFFFFF;margin-top:25px;min-height:137px;}
 #footer #container_footer {margin:0 auto;width:980px;padding-top:20px;}
 #footer #container_footer .xoxo{float:left;margin:10px 12px;font-size:11px;color:#303764;font-weight:bold;}
