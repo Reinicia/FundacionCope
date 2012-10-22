@@ -27,7 +27,7 @@ get_header(); ?>
         //$cat_name =single_cat_title();
         $args = array(
 	            'category_name'=>'profesores',
-                'posts_per_page' => 6,
+                'posts_per_page' => 9,
 	            'paged' => $my_page
         );
 	    $first_query = new WP_Query($args); // exclude category
