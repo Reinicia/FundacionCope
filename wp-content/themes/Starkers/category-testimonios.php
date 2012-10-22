@@ -38,8 +38,9 @@ get_header(); ?>
            <div class="testimonios_cuerpo">
            		<h6><b><?php the_field('nombre_y_apellidos'); ?></b></h6>
            		<h6><?php the_field('master_cursado'); ?></h6>
-<?php if (function_exists("insert_audio_player")) {  
-               insert_audio_player("[audio:".the_field('fichero_de_audio_ivoox')."]");  
+<?php if (function_exists("insert_audio_player")) {
+	           $audio =  the_field('fichero_de_audio_ivoox');
+               insert_audio_player("[audio:$audio]");  
 } ?>  
            		<!--<p class="clear"><?php the_field('entradilla'); ?></p>-->
            	</div>
