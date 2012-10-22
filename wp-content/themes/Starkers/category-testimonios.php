@@ -1,6 +1,6 @@
 <?php
 /**
- * Pagina para mostrar la categoria noticias
+ * Pagina para mostrar la categoria testimonios
  *
  * @package WordPress
  * @subpackage Starkers
@@ -24,24 +24,26 @@ get_header(); ?>
 		}
 
 // default loop here, if applicable, followed by wp_reset_query();
-        //$cat_name =single_cat_title();
+    
         $args = array(
-	            'category_name'=>'profesores',
-                'posts_per_page' => 9,
+	            'category_name'=>'testimonios',
+                'posts_per_page' => 6,
 	            'paged' => $my_page
         );
 	    $first_query = new WP_Query($args); // exclude category
         while($first_query->have_posts()) : $first_query->the_post();	
-?>
-       <div class="profes">
-           <img class="img_profes" alt="<?php the_field('nombre_profesor'); ?>" src="<?php the_field('foto_profesor'); ?>"/>
-           <h6><b><?php the_field('nombre_profesor'); ?></b></h6>
-           <h6><?php the_field('cargo'); ?></h6>
-           <a href="<?php the_field('url_linkedin'); ?>">
-      			<img class="linkedin" src="http://www.linkedin.com/img/webpromo/btn_profile_bluetxt_80x15_es_ES.png?locale=" border="0" alt="Ver el perfil en LinkedIn">
-           </a>
-           <a class="enlace" title="<?php the_title();?>" href="<?php the_permalink();?>">+ Ver Más</a>
-        </div>
+?>		
+        <div class="testimonios">
+           <img class="img_testimonios" alt="<?php the_field('nombre_y_apellidos'); ?>" src="<?php the_field('foto_alumno'); ?>"/>
+           <div class="testimonios_cuerpo">
+           		<h6><b><?php the_field('nombre_y_apellidos'); ?></b></h6>
+           		<h6><?php the_field('master_cursado'); ?></h6>
+<?php if (function_exists("insert_audio_player")) {  
+               insert_audio_player("[audio:http://www.domain.com/path/to/song.mp3]");  
+} ?>  
+           		<!--<p class="clear"><?php the_field('entradilla'); ?></p>-->
+           	</div>
+        </div>	
 <?php
         endwhile;
 		wp_pagenavi(array( 'query' => $first_query ));
@@ -54,4 +56,4 @@ get_header(); ?>
         </div>
     </div>
 </div>
-<?php get_footer(); ?>	
+<?php get_footer(); ?>
