@@ -33,7 +33,7 @@ get_header(); ?>
 	    $first_query = new WP_Query($args); // exclude category
         while($first_query->have_posts()) : $first_query->the_post();	
 ?>
-       <div class="profes" style="border:1px solid blue">
+       <div class="profes">
            <img class="img_profes" alt="<?php the_field('nombre_profesor'); ?>" src="<?php the_field('foto_profesor'); ?>"/>
            <h6><b><?php the_field('nombre_profesor'); ?></b></h6>
            <h6><?php the_field('cargo'); ?></h6>
