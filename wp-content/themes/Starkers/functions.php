@@ -534,6 +534,51 @@ function my_post_queries( $query ) {
   }
 }
 add_action( 'pre_get_posts', 'my_post_queries' );
+function get_category_title($node) {
+    global $wpdb;
+    $test = $wpdb->get_var("SELECT name FROM $wpdb->terms WHERE term_id=$node");
+    return $test;
+}
+
+function get_category_child() {
+    global $wp_query;
+    return $wp_query->query_vars['cat_child'];
+}
+
+function is_parent() {
+    global $wp_query;
+    if ((get_category_parent($wp_query->query_vars['cat']) == 0) && (empty($wp_query->query_vars['cat_child']))) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function get_category_parent($node) {
+    $path = get_category_path($node);
+
+    if (empty($path)) {
+        return 0;
+    } else {
+        return $path[0];
+    }
+}
+
+function get_category_path($node) {
+    global $wpdb;
+
+    $parent = $wpdb->get_var("SELECT parent FROM $wpdb->term_taxonomy WHERE term_id=$node");
+    $path = array();
+
+    if ($parent != 0) {
+        $path[] = $parent;
+
+        $path = array_merge(get_category_path($parent), $path);
+    } 
+
+    return $path;
+
+}
 function epct_redirect() {
 	global $wp_query;
 
