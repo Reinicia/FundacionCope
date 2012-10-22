@@ -382,7 +382,10 @@ a.search:link, a.search:active{color:#303765;}
 }
 .linkedin{width:80px;height:15px;margin-right:3px;}
 .profes{float:left;margin-left:15px;margin-bottom:5px;width:200px;min-height:150px;background-color:#fff;padding:5px}
-.img_profes{height:70px;width:70px;}
+.img_profes{height:70px;width:70px;height:70px;width:70px;}
+.testimonios{background-color:#fff;min-height:100px;width:320px;float:left;margin-right:10px;}
+.img_testimonios{float:left;margin:5px;}
+.testimonios_cuerpo{float:left;margin:5px;min-height:90px}
 #contenido #page #dcha{
 	
 	margin:25px 0;
