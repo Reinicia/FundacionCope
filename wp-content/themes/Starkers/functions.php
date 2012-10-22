@@ -534,26 +534,25 @@ function my_post_queries( $query ) {
   }
 }
 add_action( 'pre_get_posts', 'my_post_queries' );
-function inherit_template() { 
-  if (is_category()) {
-    $catid = get_query_var('cat');
-    if ( file_exists(TEMPLATEPATH . '/category-' . $catid . '.php') ) {
-      include( TEMPLATEPATH . '/category-' . $catid . '.php');
-      exit;
-    }
+function epct_redirect() {
+	global $wp_query;
 
-    $cat = &get_category($catid);
-    $parent = $cat->category_parent;
-    while ($parent) {
-      $cat = &get_category($parent);
-      if ( file_exists(TEMPLATEPATH . '/category-' . $cat->cat_ID . '.php') ) {
-        include (TEMPLATEPATH . '/category-' . $cat->cat_ID . '.php');
-        exit;
-      }
+	if (is_category()) {
+		$childcat = $wp_query->query_vars['cat'];
+		$parent = get_category_parent($childcat);
 
-      $parent = $cat->category_parent;
-    }
-  }
+		$category = get_category($childcat);
+
+		if ($parent != 0) {
+
+			// fix from marty@halfempty to deal with custom template.
+			if (!file_exists(STYLESHEETPATH . '/category-' . $category->slug . '.php')) {
+			  //fix for WP 3.1
+			  $parent = get_category($parent);
+			  $wp_query->queried_object->slug = $parent->slug;
+			}
+		}
+
+	}
 }
-
-add_action('template_redirect', 'inherit_template', 1);
+add_action('template_redirect', 'epct_redirect');
