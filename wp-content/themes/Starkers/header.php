@@ -46,7 +46,7 @@
     	<div id="sup">
 	    	<ul>
 	            <li><a title="Donde estamos" href="/donde-estamos-nuntii-escuela-cope">DONDE ESTAMOS</a><span> | </span></li>
-	            <li><a href="">CONTACTO</a><span> | </span></li>
+	            <li><a href="/contacta">CONTACTO</a><span> | </span></li>
 	            <li></li>
 	            <li><a title="Facebook Nuntii Escuela" href="http://facebook.com/NuntiiEscuelaDeComunicacionDeLaFundacionCope" target="_blank"><img src="/images/facebook.png" alt="" width="20" height="20" /></a></li>
 	            <li><a title="Twitter de Nuntii Escuela" href="http://twitter.com/nuntiiescuela" target="_blank"><img src="/images/twitter.png" alt="" width="20" height="20" /></a></li>
@@ -99,7 +99,7 @@
 					</ul>
 		    	</li>
 		    	<li><a class="fNiv">IN COMPANY</a></li>
-		    	<li><a class="fNiv">PROFESORADO</a>
+		    	<li><a href="/profesores" class="fNiv">PROFESORADO</a>
 		    		<ul>
 						<li class="arrow"></li>
 						<li><a>Masters</a></li>
@@ -110,21 +110,15 @@
 		    	<li><a class="fNiv">ALUMNOS</a>
 		    		<ul>
 						<li class="arrow"></li>
-						<li><a>Testimonios</a></li>
+						<li><a href="/testimonios">Testimonios</a></li>
 						<li><a>Antiguos alumnos</a></li>
 						<li><a>Bolsa de trabajo</a></li>
 					</ul>
 		    	</li>
 		    	<li><a href="/noticias" title="Noticias" class="fNiv">NOTICIAS</a></li>
-		    	<li><a class="fNiv">CONTACTA</a></li>
+		    	<li><a href="/contacta" class="fNiv">CONTACTA</a></li>
 			</ul>
 		</div>
-	<!--	<div class="breadcrumbs">
-	    <?php if(function_exists('bcn_display') && !is_home())
-	    {
-	        bcn_display();
-	    }?>
-     </div>-->
 <script type="text/javascript">
   jQuery(document).ready(function(){
     jQuery("#jMenu").jMenu();
