@@ -25,7 +25,7 @@ get_header(); ?>
 
 // default loop here, if applicable, followed by wp_reset_query();
         $args = array(
-	            'category_name'=>'master de radio',
+	            'cate'=>7,
                 'posts_per_page' => 9,
 	            'paged' => $my_page
         );

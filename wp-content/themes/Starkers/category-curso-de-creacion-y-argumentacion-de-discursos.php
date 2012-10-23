@@ -25,7 +25,7 @@ get_header(); ?>
 
 // default loop here, if applicable, followed by wp_reset_query();
         $args = array(
-	            'category_name'=>'curso de creación y argumentación de discursos',
+	            'cat'=>32,
                 'posts_per_page' => 9,
 	            'paged' => $my_page
         );
