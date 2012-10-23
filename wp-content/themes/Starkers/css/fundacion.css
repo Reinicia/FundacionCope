@@ -52,7 +52,7 @@ a{
 form p {font-family: 'Oswald',sans-serif;color:#8c8c8c;margin-top:3px;font-size:12px !important;}
 form input[type=text]{width:232px;height:28px;border:1px solid #D9DAC0;background-color:#FFF; }
 form select {font-family: 'Oswald',sans-serif;color:#8c8c8c;background: transparent;width: 268px;padding: 5px;font-size: 12px;height: 30px;}
-form .wpcf7-submit{float:right;margin-bottom:4px;margin-top:11px;margin-left:15px;margin-right:15px;}
+form .wpcf7-submit{float:left;margin-bottom:4px;margin-top:11px;margin-left:0px;margin-right:15px;}
 form .wpcf7-response-output {clear:both;color:#8c8c8c;font-family: 'Oswald',sans-serif;font-size:12px;margin:0;}
 #contenido #contenido_superior #contenido_central{
 	width:980px;
