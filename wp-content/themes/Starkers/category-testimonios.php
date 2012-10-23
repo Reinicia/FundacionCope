@@ -7,6 +7,14 @@
  * @since Starkers 3.0
  */
 get_header(); ?>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="contenido">
 	<div id="page">
 		<div id="izq">
@@ -41,6 +49,7 @@ get_header(); ?>
 <?php if (function_exists("insert_audio_player")) {
                insert_audio_player("[audio:".get_field('fichero_de_audio_ivoox')."|titles=".get_field('nombre_y_apellidos')."]");  
 } ?> 
+           		<div class="fb-like" data-send="true" data-layout="button_count" data-width="300" data-show-faces="true" data-action="recommend" data-font="arial"></div>
            		<!--<p class="clear"><?php the_field('entradilla'); ?></p>-->
            	</div>
         </div>	
