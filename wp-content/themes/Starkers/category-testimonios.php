@@ -50,7 +50,7 @@ get_header(); ?>
                insert_audio_player("[audio:".get_field('fichero_de_audio_ivoox')."|titles=".get_field('nombre_y_apellidos')."]");  
 } ?> 
            	</div>
-           	<p class="clear"><?php the_field('entradilla'); ?></p>
+           	<span class="clear"><?php the_field('entradilla'); ?></span>
            		<div class="fb-like" data-send="true" data-layout="button_count" data-width="300" data-show-faces="true" data-action="recommend" data-font="arial"></div>
         </div>	
 <?php
