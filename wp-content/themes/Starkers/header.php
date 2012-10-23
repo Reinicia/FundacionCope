@@ -124,7 +124,15 @@
 							</ul>
 						</li>
 						<li><a href="/profesores/cursos-superiores">Cursos Superiores</a></li>
-						<li><a href="/profesores/pdps">PDP's</a></li>
+						<li><a href="/profesores/pdps">PDP's</a>
+							<ul>
+								<li><a href="/profesores/pdps/curso-de-comunicacion-de-crisis">Curso de Comunicación de Crisis</a></li>
+								<li><a href="/profesores/pdps/curso-de-comunicacion-e-imagen-politica">Curso de Comunicación e Imagen Política</a></li>
+								<li><a href="/profesores/pdps/curso-de-creacion-y-argumentacion-de-discursos">Curso de Creación y Argumentación de Discursos</a></li>
+								<li><a href="/profesores/pdps/curso-de-oratoria">Curso de Oratoria y Comunicación Eficaz</a></li>
+								<li><a href="/profesores/pdps/curso-de-ventas-y-negociacion-comercial">Curso de Ventas y Negociación Comercial</a></li>
+							</ul>
+						</li>
 					</ul>
 		    	</li>
 		    	<li><a class="fNiv">ALUMNOS</a>
