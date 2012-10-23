@@ -26,7 +26,7 @@ get_header(); ?>
 // default loop here, if applicable, followed by wp_reset_query();
         $category = get_the_category();
         $cat_name = $category[0]->cat_name;
-		//echo "[".$cat_name."]";
+		echo "[".$cat_name."]";
         $args = array(
 	            'category_name'=>$cat_name,
                 'posts_per_page' => 9,
