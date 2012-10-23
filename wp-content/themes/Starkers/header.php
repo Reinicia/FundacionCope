@@ -119,12 +119,12 @@
 						<li class="arrow"></li>
 						<li><a href="">Masters</a>
 							<ul>
-								<li><a href="/master-de-radio">Masters de Radio</a></li>
-								<li><a href="/master-de-p-deportivo">Masters de P. Deportivo</a></li>
+								<li><a href="/profesores/master-de-radio">Masters de Radio</a></li>
+								<li><a href="/profesores/master-de-p-deportivo">Masters de P. Deportivo</a></li>
 							</ul>
 						</li>
-						<li><a href="/cursos-superiores">Cursos Superiores</a></li>
-						<li><a href="/pdps">PDP's</a></li>
+						<li><a href="/profesores/cursos-superiores">Cursos Superiores</a></li>
+						<li><a href="/profesores/pdps">PDP's</a></li>
 					</ul>
 		    	</li>
 		    	<li><a class="fNiv">ALUMNOS</a>
