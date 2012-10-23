@@ -18,7 +18,7 @@ get_header(); ?>
 <div id="contenido">
 	<div id="page">
 		<div id="izq">
-		<h1><?php echo get_the_title(); ?></h1>
+		<h1 class="titulo-post">Testimonios Alumnos Nuntii</h1>
 <?php
         global $paged;
 		if( get_query_var( 'paged' ) )
