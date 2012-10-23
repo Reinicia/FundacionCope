@@ -41,6 +41,7 @@ get_header(); ?>
 	    $first_query = new WP_Query($args); // exclude category
         while($first_query->have_posts()) : $first_query->the_post();	
 ?>		
+        <h1 id="titulo-post"><?php the_title();?></h1>
         <div class="testimonios">
            <img class="img_testimonios" alt="<?php the_field('nombre_y_apellidos'); ?>" src="<?php the_field('foto_alumno'); ?>"/>
            <div class="testimonios_cuerpo">
