@@ -126,8 +126,8 @@
 		    		<ul>
 						<li class="arrow"></li>
 						<li><a href="/testimonios">Testimonios</a></li>
-						<li><a>Antiguos alumnos</a></li>
-						<li><a>Bolsa de trabajo</a></li>
+						<!--<li><a>Antiguos alumnos</a></li>
+						<li><a>Bolsa de trabajo</a></li>-->
 					</ul>
 		    	</li>
 		    	<li><a href="/noticias" title="Noticias" class="fNiv">NOTICIAS</a></li>

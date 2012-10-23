@@ -19,10 +19,10 @@
 define('DB_NAME', 'wpfundacion');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'wpuser');
+define('DB_USER', 'root');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'Fundac10n');
+define('DB_PASSWORD', '');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
@@ -92,3 +92,4 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
+define('WP_CACHE', true);
