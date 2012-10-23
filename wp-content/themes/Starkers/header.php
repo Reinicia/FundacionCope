@@ -95,7 +95,22 @@
 								</li>
 							</ul>
 						</li>
-						<li><a>PDP's</a></li>
+						<li><a>PDP's</a>
+							<ul>
+								<li>
+									<a href="/curso-pdp-creacion-argumentacion-discursos" title="Curso de Creación y Argumentación de Discursos">Curso de Creación y Argumentación de Discursos</a>
+								</li> 
+								<li>
+									<a href="/curso-oratoria-comunicacion-eficaz-fabrica-discursos" title="Curso de Oratoria y Comunicación Eficaz">Curso de Oratoria y Comunicación Eficaz</a>
+								</li>
+								<li>
+									<a href="/curso-pdp-comunicacion-crisis-cope" title="Curso de Comunicación de Crisis">Curso de Comunicación de Crisis</a>
+								</li>
+								<li>
+									<a href="/curso-pdp-venta-negociacion-comercial-cope" title="Curso de Venta y Negociación Comercial">Curso de Venta y Negociación Comercial</a>
+								</li>
+							</ul>
+						</li>
 					</ul>
 		    	</li>
 		    	<li><a class="fNiv">IN COMPANY</a></li>
