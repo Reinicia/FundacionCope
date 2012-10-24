@@ -19,13 +19,13 @@ get_header(); ?>
 	<?php if ( have_posts() ) : ?>
 		    <h1>
 <?php if ( is_day() ) : ?>
-				<?php printf( __( 'Daily Archives: %s', 'twentyten' ), get_the_date() ); ?>
+				<?php printf( __( 'Archivos Diarios: %s', 'twentyten' ), get_the_date() ); ?>
 <?php elseif ( is_month() ) : ?>
-				<?php printf( __( 'Monthly Archives: %s', 'twentyten' ), get_the_date('F Y') ); ?>
+				<?php printf( __( 'Archivos Mensuales: %s', 'twentyten' ), get_the_date('F Y') ); ?>
 <?php elseif ( is_year() ) : ?>
-				<?php printf( __( 'Yearly Archives: %s', 'twentyten' ), get_the_date('Y') ); ?>
+				<?php printf( __( 'Archivos Anuales: %s', 'twentyten' ), get_the_date('Y') ); ?>
 <?php else : ?>
-				<?php _e( 'Blog Archives', 'twentyten' ); ?>
+				<?php _e( 'Archivos del Blog', 'twentyten' ); ?>
 <?php endif; ?>
 			</h1>
             <?php while ( have_posts() ) : the_post(); ?>
@@ -35,9 +35,9 @@ get_header(); ?>
      		<?php endwhile; ?>
    	<?php endif; ?>
         </div>
-    </div>
-    <div id="dcha">
+        <div id="dcha">
         	<?php get_sidebar(); ?>
+        </div>
     </div>
 </div>
 <?php get_footer(); ?>
